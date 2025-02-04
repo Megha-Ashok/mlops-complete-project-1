@@ -23,7 +23,7 @@ SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 
 AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
 AWS_SECRET_ACCESS_KEY_ENV_KEY = "AWS_SECRET_ACCESS_KEY"
-REGION_NAME = "us-east-1"
+REGION_NAME = "ap-south-1"
 
 
 """
@@ -66,8 +66,8 @@ MIN_SAMPLES_SPLIT_RANDOM_STATE: int = 101
 """
 MODEL Evaluation related constants 
 """
-MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
-MODEL_BUCKET_NAME = "my-model-mlopsproj"
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02 # it compare the previous model with new model if the performance threshold more than or equal to 0.02 then fush that model in server otherwise no need to push
+MODEL_BUCKET_NAME = "mlopsproject-bucket"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 

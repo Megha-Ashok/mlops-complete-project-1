@@ -19,6 +19,9 @@
 11. Dataset added to notebook folder
 12. Push your data to mongoDB database from your python notebook.
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
+password=i3RmDgq72h4CCNRY
+user_name=megha_ashok
+ this is my ulr:- mongodb+srv://megha_ashok:<db_password>@cluster0.lzzzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 -------------------------------------- logging, exception and notebooks --------------------------------------
 14. Write the logger file and test it on demo.py
@@ -59,6 +62,8 @@
       * Go to IAM >> Create new user (name: firstproj)
       * Attach policy >> select AdministratorAccess >> next >> create user
       * Go to the user >> Security Credentials >> Access Keys >> Create access key
+       it is my access key:- AKIA3CMCCTCDOU4FSHHL
+       it is password /security access key:- MAsozBNmRTK4BbVitLnVbWLiB0+ce/WOLQux8lAf
       * Select CLI >> agree to condition >> next >> Create Access Key >> download csv file
       * Set env variables with above csv values using below method:
       ====================================================================================
@@ -82,7 +87,8 @@
             MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
             MODEL_BUCKET_NAME = "my-model-mlopsproj"
             MODEL_PUSHER_S3_KEY = "model-registry"
-      * Go to S3 service >> Create bucket >> Region: us-east-1 >> General purpose >>
+      # go to s3 service which is in aws webpage 
+      * Go to S3 service >> Create bucket >> Region: us-east-1 >> General purpose >> 
         Bucket Name: "my-model-mlopsproj" >> uncheck: "Block all public access" and acknowledge >>
         Hit Create Bucket
       * Now inside "src.aws_storage" code needs to be added for the configurations needed to pull 
