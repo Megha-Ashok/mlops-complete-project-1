@@ -62,8 +62,8 @@ user_name=megha_ashok
       * Go to IAM >> Create new user (name: firstproj)
       * Attach policy >> select AdministratorAccess >> next >> create user
       * Go to the user >> Security Credentials >> Access Keys >> Create access key
-       it is my access key:- AKIA3CMCCTCDOU4FSHHL
-       it is password /security access key:- MAsozBNmRTK4BbVitLnVbWLiB0+ce/WOLQux8lAf
+       it is my access key:-AKIA3CMCCTCDKJTQCC23
+       it is password /security access key:- Irp3uluCMNZVo9ZI63pSvZscngYI2iZu6iiQS8UY
       * Select CLI >> agree to condition >> next >> Create Access Key >> download csv file
       * Set env variables with above csv values using below method:
       ====================================================================================
