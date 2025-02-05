@@ -108,8 +108,8 @@ user_name=megha_ashok
         Go inside user >> Security Credentials >> Access Keys >> create access key >> CLI >> check agreement
         >> next >> create access key >> download csv
       * Now create one ECR repo to store/save docker image:
-        AWS console >> Go to ECR >> Region: us-east-1 >> Hit create repository >>
-        repo name: vehicleproj >> hit create repository >> copy and keep uri
+        AWS console >> Go to ECR >> Region: ap-south-1 >> Hit create repository >>
+        repo name:mlopsinstance >> hit create repository >> copy and keep uri:-761018882182.dkr.ecr.ap-south-1.amazonaws.com/mlopsinstance
       * Now create EC2 Ubuntu server >> AWS console >> EC2 >> Launch Instance >> name: vehicledata-machine
         >> Image: Ubuntu >> AMI: Ubuntu Server 24.04 (free tier) >> Instance: T2 Medium (~chargeable-3.5rs/hr)
         >> create new key pair (name: proj1key) >> allow for https and http traffic >> storage: 30gb >> Launch
@@ -139,7 +139,7 @@ user_name=megha_ashok
       AWS_ACCESS_KEY_ID
       AWS_SECRET_ACCESS_KEY
       AWS_DEFAULT_REGION
-      ECR_REPO
+      _ECRREPO
 
 31. CI-CD pipeline will be triggered at next commit and push.
 32. Now we need to activate the 5000 port of our EC2 instance:
