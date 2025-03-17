@@ -3,7 +3,7 @@ from datetime import date
 
 # For MongoDB connection
 DATABASE_NAME = "Proj1"
-COLLECTION_NAME = "Proj1-Data"
+COLLECTION_NAME = "Proj1-Data"                            
 MONGODB_URL_KEY = "MONGODB_URL"
 
 PIPELINE_NAME: str = ""
@@ -70,6 +70,5 @@ MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02 # it compare the previous
 MODEL_BUCKET_NAME = "mlopsproject-bucket"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
-
 APP_HOST = "0.0.0.0"
-APP_PORT = 4000
+APP_PORT = 8000
