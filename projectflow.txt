@@ -19,9 +19,7 @@
 11. Dataset added to notebook folder
 12. Push your data to mongoDB database from your python notebook.
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
-password=i3RmDgq72h4CCNRY
-user_name=megha_ashok
- this is my ulr:- mongodb+srv://megha_ashok:<db_password>@cluster0.lzzzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+ this is my ulr:-
 
 -------------------------------------- logging, exception and notebooks --------------------------------------
 14. Write the logger file and test it on demo.py
@@ -62,8 +60,8 @@ user_name=megha_ashok
       * Go to IAM >> Create new user (name: firstproj)
       * Attach policy >> select AdministratorAccess >> next >> create user
       * Go to the user >> Security Credentials >> Access Keys >> Create access key
-       it is my access key:-AKIA3CMCCTCDKJTQCC23
-       it is password /security access key:- Irp3uluCMNZVo9ZI63pSvZscngYI2iZu6iiQS8UY
+       it is my access key:-
+       it is password /security access key:- 
       * Select CLI >> agree to condition >> next >> Create Access Key >> download csv file
       * Set env variables with above csv values using below method:
       ====================================================================================
@@ -109,7 +107,7 @@ user_name=megha_ashok
         >> next >> create access key >> download csv
       * Now create one ECR repo to store/save docker image:
         AWS console >> Go to ECR >> Region: ap-south-1 >> Hit create repository >>
-        repo name:mlopsinstance >> hit create repository >> copy and keep uri:-761018882182.dkr.ecr.ap-south-1.amazonaws.com/mlopsinstance
+        repo name: >> hit create repository >> copy and keep uri:-
       * Now create EC2 Ubuntu server >> AWS console >> EC2 >> Launch Instance >> name: vehicledata-machine
         >> Image: Ubuntu >> AMI: Ubuntu Server 24.04 (free tier) >> Instance: T2 Medium (~chargeable-3.5rs/hr)
         >> create new key pair (name: proj1key) >> allow for https and http traffic >> storage: 30gb >> Launch
